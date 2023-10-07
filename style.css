@@ -583,6 +583,7 @@ footer .container-wrapper .rights {
 }
 .popup form .passwords-wrapper input {
   width: 206px;
+  max-width: 48%;
 }
 .popup form .agreement {
   display: flex;
