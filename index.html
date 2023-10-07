@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap">
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-container">
+                <img id="openMenu" src="/assets/images/icons/open_menu.png" alt="">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="/assets/images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="nav-item active">Games</li>
+                    <li class="nav-item">Contact Us</li>
+                    <li class="nav-item">Terms of Use</li>
+                    <li class="nav-item">About</li>
+                </ul>
+            </div>
+
+            <ul class="user-actions">
+                <li id="signUp">Sign up</li>
+                <li>Log in</li>
+            </ul>
+        </nav>
+
+
+        <nav class="burger-menu">
+            <img id="close" class="close" src="/assets/images/icons/close.png" alt="close">
+            <img class="logo" src="/assets/images/logo.png" alt="logo">
+            <div class="user-actions">
+                <li href="signup.html">Sign up</li>
+                <li href="signin.html">Log in</li>
+            </div>
+            <ul class="menu">
+                <li class="active">Games</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li>Terms of Use</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>awesome html5 games <br> - NO MONEY!</h1>
+            <h3>Your perfect place to get some <br> fun and excitement</h3>
+            <div class="btn-container">
+                <button class="login">Log in</button>
+                <button class="play">Play</button>
+            </div>
+
+            <div class="register">
+                <div class="top-section">
+                    <h2>Create a free account now</h2>
+                    <div class="services-container">
+                        <div class="service">
+                            <img src="/assets/images/icons/icon_1.png" alt="">
+                            <span>1000+ Games available</span>
+                        </div>
+                        <div class="service">
+                            <img src="/assets/images/icons/icon_2.png" alt="">
+                            <span>New game Every week</span>
+                        </div>
+                        <div class="service">
+                            <img src="/assets/images/icons/icon_3.png" alt="">
+                            <span>Support our users 24/7</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="registration-form" method="post">
+                    <input type="text" name="first_name" placeholder="Firstname" required>
+                    <input type="text" name="last_name" placeholder="Lastname" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button type="submit">join now</button>
+                </form>
+
+                <div class="agreement">
+                    <input type="checkbox">
+                    <span>I accept the
+                        <pre>Privacy Policy</pre>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="games">
+            <div class="container-wrapper">
+                <h2>Our Games</h2>
+                <div class="description">
+                    <span>Get Virtual Welcome bonus after Sign Up</span>
+                    <span>all games</span>
+                </div>
+
+                <div class="games-wrapper">
+                    <div class="container-left">
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_4.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_2.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_3.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_2.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_5.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_4.png" alt="">
+                            <h3>Book Of Tombs</h3>
+                            <span>netent games</span>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_7.png" alt="">
+                            <div class="game-description">
+                                <h4>Dynamite Riches Megaways</h4>
+                                <span>Miners revealed a gain of €46,672 for Sandra M.! You too, dynamite the
+                                    reels.</span>
+                                <button>Play now</button>
+                            </div>
+                        </div>
+                        <div class="game-thumbnail">
+                            <img src="/assets/images/games/game_img_8.png" alt="">
+                            <div class="game-description">
+                                <h4>Dynamite Riches Megaways</h4>
+                                <span>These swamps conceal many dangers but especially precious treasures.</span>
+                                <button>Play now</button>
+                            </div>
+                        </div>
+                        <div class="promotion">
+                            <img src="/assets/images/games/game_img_9.png" alt="">
+                            <h3>Book Of Tombs </h3>
+                            <span>netent games</span>
+                            <!-- <button>read more</button> -->
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <article>* We don't offer opportunities to play for real money. Our games are free demo. All games were
+                    invented for entertainment purposes only and do not offer real money prizes.</article>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <span>If you have some questions, send us a message</span>
+                    <form method="post">
+                        <input type="text" id="firstname" name="firstname" required>
+                        <input type="email" id="email" name="email" required>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <div class="submit">
+                            <div class="agreement">
+                                <input type="checkbox">
+                                <span>I accept the
+                                    <pre>Privacy Policy</pre>
+                                </span>
+                            </div>
+                            <input type="submit" value="Send" class="send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-wrapper">
+            <div class="terms">
+                <span>Disclaimer | Privacy Policy | Terms of Conditions</span>
+            </div>
+
+            <div class="description">
+                This site does not provide any form of online gambling and delivers information for entertainment and
+                research purposes only. The games listed by Topwinningslots are intended for adult audience
+                entertainment (underage visitors are restricted) and do not offer real money or prizes.
+            </div>
+
+            <hr>
+
+            <div class="rights">
+                <span>2022 | © Lorem Inc. All Rights Reserved</span>
+                <div class="social">
+                    <img src="/assets/images/social/fa-brands_twitter.png" alt="twitter">
+                    <img src="/assets/images/social/fa-brands_facebook-f.png" alt="twitter">
+                    <img src="/assets/images/social/fa6-brands_instagram.png" alt="twitter">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="options">
+            <div id="showSignUp" class="menu-item">
+                sign up
+            </div>
+
+            <div id="showSignIn" class="menu-item active">
+                log in
+            </div>
+        </div>
+
+        <form id="signUpForm">
+            <input type="text" placeholder="Firstname">
+            <input type="text" placeholder="Lastname">
+            <input type="text" placeholder="Email">
+            <div class="passwords-wrapper">
+                <input type="password" placeholder="password">
+                <input type="password" placeholder="Confitm Password">
+            </div>
+            <div class="agreement">
+                <input type="checkbox">
+                <span>I accept the
+                    <pre>Privacy Policy</pre>
+                </span>
+            </div>
+            <button type="submit">join now</button>
+        </form>
+
+        <form id="logInForm">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="password">
+            <button type="submit">Log In</button>
+        </form>
+
+    </div>
+
+    <div id="overlay"></div>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
